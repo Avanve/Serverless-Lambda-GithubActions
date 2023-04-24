@@ -4,22 +4,24 @@
 
 2. Create empty git repository
 
-3. Add AWS credentials 
+3. Add AWS credentials to git repository
 
 3. Use any code editor and clone git repository.
 
 4. Install serverless via npm
 
-      npm install -g serverless
+            npm install -g serverless
     
 5. Create AWS Nodejs boilerplate project template using command
 
-      serverless create --template aws-nodejs
+            serverless create --template aws-nodejs
       
-    This will create serverless.yml and handler.js files in project template 
+    This will create three files gitignore, serverless.yml and handler.js files in project template 
 
-6. Create sec folder and move handler.js into src
+6. Create src folder and move handler.js into src
 
-7. Create folderstruture .github folder --> workflows folder --> add main.yml file
+7. Create folder struture .github folder --> workflows folder --> add main.yml file
 
-8.
+8. commit and push code to remote repository.Github automatically deploy lambda and create CloudFormation Stack 
+
+
