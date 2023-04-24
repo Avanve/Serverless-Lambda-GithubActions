@@ -3,9 +3,10 @@ service: serverless-lambda-githubactions
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs18.x
   stage: dev
   region: us-west-2
+  disableRollback: true
 
 functions:
   hello:
