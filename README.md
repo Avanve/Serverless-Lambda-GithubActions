@@ -22,6 +22,6 @@
 
 7. Create folder struture .github folder --> workflows folder --> add main.yml file
 
-8. commit and push code to remote repository.Github automatically deploy lambda and create CloudFormation Stack 
+8. commit and push code to remote repository. Github automatically deploy lambda and create CloudFormation Stack 
 
 
