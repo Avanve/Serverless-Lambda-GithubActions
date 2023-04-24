@@ -6,6 +6,8 @@
 
 3. Add AWS credentials to git repository
 
+            go to github settings--> secrets and credentials--> Add new repository secrets
+
 3. Use any code editor and clone git repository.
 
 4. Install serverless via npm
